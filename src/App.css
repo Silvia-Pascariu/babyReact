@@ -1,0 +1,141 @@
+/* General style */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+/* General style */
+h4 {
+    font-weight: 400;
+}
+
+h2, h3, h4 {
+    margin: 0;
+}
+
+.rounded {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+/* Navigation */
+.MuiBottomNavigation-root {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    background: white;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: 20px;
+    -webkit-box-shadow: 0 3px 30px -13px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0 3px 30px -13px rgba(0,0,0,0.74);
+    box-shadow: 0 3px 30px -13px rgba(0,0,0,0.74);
+}
+/* Homepage style */
+.headerInfo {
+    margin: 20px 10px;
+}
+
+.generalInfo {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: #2d2d2d;
+    height: 400px;
+}
+
+.generalInfo img {
+    width: 95%;
+    height: 100%;
+    max-width: 500px;
+    object-fit: cover;
+
+}
+
+.generalInfo .textMsg {
+    position: absolute;
+    margin: 26px 0 25px 35px;
+    width: 80%;
+    height: 100%;
+}
+
+.generalInfo .introMsg {
+    position: absolute;
+}
+
+.generalInfo .bottomMsg {
+    position: absolute;
+    bottom: 35px;
+}
+
+.latestActions {
+    margin-top: 40px;
+}
+
+.latestActions h3 {
+    padding: 10px 0 0 18px
+}
+
+/* List style */
+.MuiAvatar-colorDefault {
+    background-color: #43cedf !important; /*#3883a5;*/
+}
+
+.MuiTypography-displayBlock {
+    display: block;
+    color: black;
+}
+
+.MuiTypography-body1 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700;
+}
+
+.MuiTypography-body2 {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+/* Tracking page*/
+.tracking ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.tracking ul li {
+    list-style: none;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    flex: 0 45%;
+    justify-content: center !important;
+    height: 150px;
+    align-items: center;
+}
+
+.tracking ul li  .MuiAvatar-colorDefault {
+    color: white !important;
+    background-color: #43cedf !important
+}
+.tracking ul li t .MuiAvatar-root {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.tracking ul li   a {
+    color: rgba(0, 0, 0, 0.54);
+}
